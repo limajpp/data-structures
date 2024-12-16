@@ -46,7 +46,6 @@ public class Debugging {
         catch (EmptyListException | ListFullException | IndexOutOfBoundsException | ZeroListSizeException |
                NegativeArraySizeException exception) {
             System.err.println("Something wrong happened: " + exception.getMessage());
-            exception.printStackTrace();
         }
     }
 }
